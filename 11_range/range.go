@@ -23,6 +23,8 @@ func main() {
 	//i is starting byte of rune
 	for i, c := range "golang" {
 		fmt.Println(i, c)
+		fmt.Println(i, string(c))
+
 	}
 
 }
